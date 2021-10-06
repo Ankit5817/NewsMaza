@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NewsMaza/static/css/main.937cf503.chunk.css",
+    "main.js": "/NewsMaza/static/js/main.feadaf36.chunk.js",
+    "main.js.map": "/NewsMaza/static/js/main.feadaf36.chunk.js.map",
+    "runtime-main.js": "/NewsMaza/static/js/runtime-main.86a38c67.js",
+    "runtime-main.js.map": "/NewsMaza/static/js/runtime-main.86a38c67.js.map",
+    "static/js/2.ec452e44.chunk.js": "/NewsMaza/static/js/2.ec452e44.chunk.js",
+    "static/js/2.ec452e44.chunk.js.map": "/NewsMaza/static/js/2.ec452e44.chunk.js.map",
+    "static/js/3.a16115ec.chunk.js": "/NewsMaza/static/js/3.a16115ec.chunk.js",
+    "static/js/3.a16115ec.chunk.js.map": "/NewsMaza/static/js/3.a16115ec.chunk.js.map",
+    "index.html": "/NewsMaza/index.html",
+    "static/css/main.937cf503.chunk.css.map": "/NewsMaza/static/css/main.937cf503.chunk.css.map",
+    "static/js/2.ec452e44.chunk.js.LICENSE.txt": "/NewsMaza/static/js/2.ec452e44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86a38c67.js",
+    "static/js/2.ec452e44.chunk.js",
+    "static/css/main.937cf503.chunk.css",
+    "static/js/main.feadaf36.chunk.js"
+  ]
+}
