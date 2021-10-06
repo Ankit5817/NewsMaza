@@ -14,7 +14,6 @@ export class NewsComponent extends Component {
       page: 1,
       loading: false,
       totalResults: 0,
-      category : 'general',
     };
     document.title = `NewsMaza - ${this.capitalize(props.category)}`
   }
