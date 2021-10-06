@@ -1,0 +1,28 @@
+#newsCompContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rowIn{
+    display: flex;
+    width: 85vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.rowIn div{
+    margin: 20px;
+    
+}
+#head{
+    margin-top: 62px;
+}
+@media (max-width: 360px) {
+    #head{
+        font-size: 19px;
+        
+    }
+  }
