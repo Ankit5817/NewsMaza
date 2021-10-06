@@ -31,7 +31,6 @@ export class App extends Component {
           color='#f11946'
           progress={this.state.progress}
           />
-          <NewsComponent category="general" progress = {this.setProgress} />
           <Switch>
             <Route  key="business" exact path="/business">
               <NewsComponent category="business" progress = {this.setProgress}/>
@@ -39,7 +38,7 @@ export class App extends Component {
             <Route  key="entertainment" exact path="/entertainment" >
               <NewsComponent category="entertainment" progress = {this.setProgress}/>
             </Route>
-            <Route  key="general" exact path="/general">
+            <Route  key="general" exact path="/">
               <NewsComponent category="general" progress = {this.setProgress} />
             </Route>
             <Route  key="health" exact path="/health">
