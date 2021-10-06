@@ -30,14 +30,9 @@ export class App extends Component {
           <LoadingBar
           color='#f11946'
           progress={this.state.progress}
-          
-          // onLoaderFinished={() => setProgress(0)}
           />
-          {/* <NewsComponent category='business' /> */}
+          <NewsComponent category="general" progress = {this.setProgress} />
           <Switch>
-            <Route  key="g" exact path="/">
-              <NewsComponent category="general" progress = {this.setProgress} />
-            </Route>
             <Route  key="business" exact path="/business">
               <NewsComponent category="business" progress = {this.setProgress}/>
             </Route>
